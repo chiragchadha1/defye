@@ -1,7 +1,6 @@
 <?
 session_start();
 $baseDir = explode("public_html" , dirname(__FILE__))[0]."public_html/";
-require($baseDir."/api/security/index.php"); // Commences a Security Check
 require($baseDir."/api/templates/global_constants.php"); // Loads Global Variable Constant
 /* <? echo $GLOBAL_CONSTANTS["html_footer"]; ?> */
 ?>
@@ -293,7 +292,7 @@ require($baseDir."/api/templates/global_constants.php"); // Loads Global Variabl
     "https://twitter.com/defyeus",
     "https://instagram.com/defyeus",
     "https://defye.us"
-  ] 
+  ]
 }
 </script>
 </body>
